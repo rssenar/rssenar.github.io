@@ -17,23 +17,10 @@
     }
     </style>
 </head>
-<body style="padding-top: 10px;">
-<div class="container-fluid" id="container" style="margin: 0 auto;">
-    <div class="row-fluid" id="titlerow">
-    <div class="span12" id="titlecolumn">
-    <!-- Banner-like substance -->
-        <div class="titlebox" style="text-align: right;">
-        <h1 id="blog-title" style="margin: 0; padding: 0;">
-            <a href="http://rssenar.github.io/" title="RSS Blog">RSS Blog</a>
-        </h1>
-        
-        
-        <hr>
-</div>
-    <!-- End of banner-like substance !-->
-    <div class="row-fluid" id="contentrow">
-        <div class="span10" id="contentcolumn">
-            <!--Body content-->
+<body class="home blog">
+    <div id="wrap" style="width:850px">
+        <div id="container" style="width:560px">
+            
             
     
 <nav class="breadcrumbs"><ul class="breadcrumb">
@@ -42,15 +29,14 @@
 
 <div id="gallery_container"></div>
 
-            <!--End of body content-->
-            <hr>
-<div class="footerbox">
-                Contents © 2016         <a href="mailto:rssenar@gmail.com">Richard Senar</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
-                
-            </div>
         </div>
-        <div class="span2" id="sidebar">
+        <div id="sidebar">
             <!--Sidebar content-->
+            <h1 id="blog-title">
+                <a href="http://rssenar.github.io/" title="RSS Blog">RSS Blog</a>
+            </h1>
+            
+            
             <ul class="unstyled">
 <li>
             
@@ -68,14 +54,14 @@
             
             
             </ul>
-<!--End of sidebar content-->
 </div>
+        <div id="footer">
+            Contents © 2016         <a href="mailto:rssenar@gmail.com">Richard Senar</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
+            
+        </div>
     </div>
-    </div>
-    </div>
-</div>
-
-            <script src="../assets/js/all-nocdn.js"></script><script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><script src="../assets/js/flowr.plugin.js"></script><script>
+    
+            <script src="../assets/js/all-nocdn.js"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><script src="../assets/js/flowr.plugin.js"></script><script>
 jsonContent = [];
 $("#gallery_container").flowr({
         data : jsonContent,
