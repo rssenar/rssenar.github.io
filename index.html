@@ -41,14 +41,54 @@ article: http://ogp.me/ns/article#
             </div>
             <div class="body">
                 <div>
-<h3>Code</h3>
-<p>It's quite easy to show code in markdown files.</p>
-<p>Backticks can be used to <code>highlight</code> some words.</p>
-<p>Also, any indented block is considered a code block.  If <code>enable_highlight</code> is <code>true</code>, syntax highlighting will be included (for the builtin parser - the github parser does this automatically).</p>
-<pre class="code literal-block"><span class="nt">&lt;script&gt;</span>
-    document.location = 'http://lmgtfy.com/?q=markdown+cheat+sheet';
-<span class="nt">&lt;/script&gt;</span>
+<h3>GitHub Flavored Markdown</h3>
+<p>If you use the Github parser, you can use some of [Github Flavored Markdown][gfm] syntax :</p>
+<ul>
+<li>User/Project@SHA: revolunet/sublimetext-markdown-preview@7da61badeda468b5019869d11000307e07e07401</li>
+<li>User/Project#Issue: revolunet/sublimetext-markdown-preview#1</li>
+<li>User : @revolunet</li>
+</ul>
+<p>Some Python code :</p>
+<pre class="code literal-block"><span class="kn">import</span> <span class="nn">random</span>
+
+<span class="k">class</span> <span class="nc">CardGame</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
+    <span class="sd">""" a sample python class """</span>
+    <span class="n">NB_CARDS</span> <span class="o">=</span> <span class="mi">32</span>
+    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cards</span><span class="o">=</span><span class="mi">5</span><span class="p">):</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cards</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">NB_CARDS</span><span class="p">),</span> <span class="mi">5</span><span class="p">)</span>
+        <span class="k">print</span> <span class="s">'ready to play'</span>
 </pre>
+
+
+<p>Some Javascript code :</p>
+<pre class="code literal-block"><span class="kd">var</span> <span class="nx">config</span> <span class="o">=</span> <span class="p">{</span>
+    <span class="nx">duration</span><span class="o">:</span> <span class="mi">5</span><span class="p">,</span>
+    <span class="nx">comment</span><span class="o">:</span> <span class="s1">'WTF'</span>
+<span class="p">}</span>
+<span class="c1">// callbacks beauty un action</span>
+<span class="nx">async_call</span><span class="p">(</span><span class="s1">'/path/to/api'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">json</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nx">another_call</span><span class="p">(</span><span class="nx">json</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">result2</span><span class="p">)</span> <span class="p">{</span>
+        <span class="nx">another_another_call</span><span class="p">(</span><span class="nx">result2</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">result3</span><span class="p">)</span> <span class="p">{</span>
+            <span class="nx">another_another_another_call</span><span class="p">(</span><span class="nx">result3</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">result4</span><span class="p">)</span> <span class="p">{</span>
+                <span class="nx">alert</span><span class="p">(</span><span class="s1">'And if all went well, i got my result :)'</span><span class="p">);</span>
+            <span class="p">});</span>
+        <span class="p">});</span>
+    <span class="p">});</span>
+<span class="p">})</span>
+</pre>
+
+
+<p>The Github Markdown also brings some [nice Emoji support][emoji] : :+1: :heart: :beer:</p>
+<h3>Parsers and Extensions</h3>
+<p>Markdown Preview comes with <strong>Python-Markdown</strong> preloaded.</p>
+<div class="footnote">
+<hr>
+<ol>
+<li id="fn:note-id">
+<p>This is the text of the note.  <a class="footnote-backref" href="posts/2nd-post/#fnref:note-id" rev="footnote" title="Jump back to footnote 1 in the text">↩</a></p>
+</li>
+</ol>
+</div>
 </div>
             </div>
         </div>
