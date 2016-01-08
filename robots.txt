@@ -1,4 +1,4 @@
-Sitemap: https://www.premierworks.org/sitemapindex.xml
+Sitemap: http://rssenar.github.io/sitemapindex.xml
 
 User-Agent: *
-Host: www.premierworks.org
+Host: rssenar.github.io
