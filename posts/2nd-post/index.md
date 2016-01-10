@@ -9,50 +9,41 @@
 .. type: text
 -->
 
-## GitHub Flavored Markdown
+This is a sample markdown file to help you write Markdown quickly :)
 
-If you use the Github parser, you can use some of [Github Flavored Markdown][gfm] syntax :
+If you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Palette with `CMD+⇧+P` then choose `Markdown Preview in browser` to see the result in your browser.
 
- * User/Project@SHA: revolunet/sublimetext-markdown-preview@7da61badeda468b5019869d11000307e07e07401
- * User/Project#Issue: revolunet/sublimetext-markdown-preview#1
- * User : @revolunet
+## Text basics
+this is *italic* and this is **bold** .  another _italic_ and another __bold__
 
-Some Python code :
+this is `important` text. and percentage signs : % and `%`
 
-```python
-import random
+This is a paragraph with a footnote (builtin parser only). [^note-id]
 
-class CardGame(object):
-    """ a sample python class """
-    NB_CARDS = 32
-    def __init__(self, cards=5):
-        self.cards = random.sample(range(self.NB_CARDS), 5)
-        print 'ready to play'
-```
+Insert `[ TOC ]` without spaces to generate a table of contents (builtin parsers only).
 
-Some Javascript code :
+## Indentation
+> Here is some indented text
+>> even more indented
 
-```js
-var config = {
-    duration: 5,
-    comment: 'WTF'
-}
-// callbacks beauty un action
-async_call('/path/to/api', function(json) {
-    another_call(json, function(result2) {
-        another_another_call(result2, function(result3) {
-            another_another_another_call(result3, function(result4) {
-                alert('And if all went well, i got my result :)');
-            });
-        });
-    });
-})
-```
+## Titles
+# Big title (h1)
+## Middle title (h2)
+### Smaller title (h3)
+#### and so on (hX)
+##### and so on (hX)
+###### and so on (hX)
 
-The Github Markdown also brings some [nice Emoji support][emoji] : :+1: :heart: :beer:
+## Example lists (1)
 
-[^note-id]: This is the text of the note. 
+ - bullets can be `-`, `+`, or `*`
+ - bullet list 1
+ - bullet list 2
+    - sub item 1
+    - sub item 2
 
-## Parsers and Extensions
+        with indented text inside
 
-Markdown Preview comes with **Python-Markdown** preloaded.
+ - bullet list 3
+ + bullet list 4
+ * bullet list 5

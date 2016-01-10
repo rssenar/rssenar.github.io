@@ -17,8 +17,10 @@ article: http://ogp.me/ns/article#
 <meta property="og:site_name" content="RichardSenar.com">
 <meta property="og:title" content="1st Post">
 <meta property="og:url" content="http://rssenar.github.io/posts/1st-post/">
-<meta property="og:description" content="This is a sample markdown file to help you write Markdown quickly :)
-If you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Pale">
+<meta property="og:description" content="Links
+This is an example inline link and another one with a title.
+Links can also be reference based : [reference 1][ref1] or [reference 2 with title][ref2].
+References are usually placed at the botto">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2016-01-07T18:06:18-08:00">
 </head>
@@ -76,52 +78,31 @@ If you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown P
         
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<p>This is a sample markdown file to help you write Markdown quickly :)</p>
-<p>If you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Palette with <code>CMD+⇧+P</code> then choose <code>Markdown Preview in browser</code> to see the result in your browser.</p>
-<h3>Text basics</h3>
-<p>this is <em>italic</em> and this is <strong>bold</strong> .  another <em>italic</em> and another <strong>bold</strong></p>
-<p>this is <code>important</code> text. and percentage signs : % and <code>%</code></p>
-<p>This is a paragraph with a footnote (builtin parser only). [^note-id]</p>
-<p>Insert <code>[ TOC ]</code> without spaces to generate a table of contents (builtin parsers only).</p>
-<h3>Indentation</h3>
-<blockquote>
-<p>Here is some indented text</p>
-<blockquote>
-<p>even more indented</p>
-</blockquote>
-</blockquote>
-<h3>Titles</h3>
-<h2>Big title (h1)</h2>
-<h3>Middle title (h2)</h3>
-<h4>Smaller title (h3)</h4>
-<h5>and so on (hX)</h5>
-<h6>and so on (hX)</h6>
-<h6>and so on (hX)</h6>
-<h3>Example lists (1)</h3>
-<ul>
-<li>bullets can be <code>-</code>, <code>+</code>, or <code>*</code>
-</li>
-<li>bullet list 1</li>
-<li>
-<p>bullet list 2</p>
-<ul>
-<li>sub item 1</li>
-<li>
-<p>sub item 2</p>
-<p>with indented text inside</p>
-</li>
-</ul>
-</li>
-<li>
-<p>bullet list 3</p>
-</li>
-<li>bullet list 4</li>
-<li>bullet list 5</li>
-</ul>
 <h3>Links</h3>
 <p>This is an <a href="http://lmgtfy.com/">example inline link</a> and <a href="http://lmgtfy.com/" title="Hello, world">another one with a title</a>.</p>
 <p>Links can also be reference based : [reference 1][ref1] or [reference 2 with title][ref2].</p>
 <p>References are usually placed at the bottom of the document</p>
+<h3>Images</h3>
+<p>A sample image :</p>
+<p><img alt="revolunet logo" src="http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg" title="revolunet logo"></p>
+<p>As links, images can also use references instead of inline links :</p>
+<p>![revolunet logo][revolunet-logo]</p>
+<h3>Code</h3>
+<p>It's quite easy to show code in markdown files.</p>
+<p>Backticks can be used to <code>highlight</code> some words.</p>
+<p>Also, any indented block is considered a code block.  If <code>enable_highlight</code> is <code>true</code>, syntax highlighting will be included (for the builtin parser - the github parser does this automatically).</p>
+<pre class="code literal-block"><span class="nt">&lt;script&gt;</span>
+    document.location = 'http://lmgtfy.com/?q=markdown+cheat+sheet';
+<span class="nt">&lt;/script&gt;</span>
+</pre>
+
+
+<h3>Math</h3>
+<p>When <code>enable_mathjax</code> is <code>true</code>, inline math can be included \(\frac{\pi}{2}\) $\pi$</p>
+<p>Alternatively, math can be written on its own line:</p>
+<p>$$F(\omega) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} f(t) \, e^{ - i \omega t}dt$$</p>
+<p>\[\int_0^1 f(t) \mathrm{d}t\]</p>
+<p>\[\sum_j \gamma_j^2/d_j\]</p>
 </div>
     </div>
     <aside class="postpromonav"><nav><ul class="pager hidden-print">

@@ -61,65 +61,6 @@ article: http://ogp.me/ns/article#
         </div>
     </header><div class="e-content entry-content">
     <div>
-<h3>GitHub Flavored Markdown</h3>
-<p>If you use the Github parser, you can use some of [Github Flavored Markdown][gfm] syntax :</p>
-<ul>
-<li>User/Project@SHA: revolunet/sublimetext-markdown-preview@7da61badeda468b5019869d11000307e07e07401</li>
-<li>User/Project#Issue: revolunet/sublimetext-markdown-preview#1</li>
-<li>User : @revolunet</li>
-</ul>
-<p>Some Python code :</p>
-<pre class="code literal-block"><span class="kn">import</span> <span class="nn">random</span>
-
-<span class="k">class</span> <span class="nc">CardGame</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
-    <span class="sd">""" a sample python class """</span>
-    <span class="n">NB_CARDS</span> <span class="o">=</span> <span class="mi">32</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cards</span><span class="o">=</span><span class="mi">5</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">cards</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">NB_CARDS</span><span class="p">),</span> <span class="mi">5</span><span class="p">)</span>
-        <span class="k">print</span> <span class="s">'ready to play'</span>
-</pre>
-
-
-<p>Some Javascript code :</p>
-<pre class="code literal-block"><span class="kd">var</span> <span class="nx">config</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="nx">duration</span><span class="o">:</span> <span class="mi">5</span><span class="p">,</span>
-    <span class="nx">comment</span><span class="o">:</span> <span class="s1">'WTF'</span>
-<span class="p">}</span>
-<span class="c1">// callbacks beauty un action</span>
-<span class="nx">async_call</span><span class="p">(</span><span class="s1">'/path/to/api'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">json</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">another_call</span><span class="p">(</span><span class="nx">json</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">result2</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">another_another_call</span><span class="p">(</span><span class="nx">result2</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">result3</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">another_another_another_call</span><span class="p">(</span><span class="nx">result3</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">result4</span><span class="p">)</span> <span class="p">{</span>
-                <span class="nx">alert</span><span class="p">(</span><span class="s1">'And if all went well, i got my result :)'</span><span class="p">);</span>
-            <span class="p">});</span>
-        <span class="p">});</span>
-    <span class="p">});</span>
-<span class="p">})</span>
-</pre>
-
-
-<p>The Github Markdown also brings some [nice Emoji support][emoji] : :+1: :heart: :beer:</p>
-<h3>Parsers and Extensions</h3>
-<p>Markdown Preview comes with <strong>Python-Markdown</strong> preloaded.</p>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:note-id">
-<p>This is the text of the note.  <a class="footnote-backref" href="posts/2nd-post/#fnref:note-id" rev="footnote" title="Jump back to footnote 1 in the text">↩</a></p>
-</li>
-</ol>
-</div>
-</div>
-    </div>
-    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/1st-post/" class="u-url">1st Post</a></h1>
-        <div class="metadata">
-            <p class="byline author vcard"><span class="byline-name fn">
-                Richard Senar
-            </span></p>
-            <p class="dateline"><a href="posts/1st-post/" rel="bookmark"><time class="published dt-published" datetime="2016-01-07T18:06:18-08:00" title="2016-01-07 18:06">2016-01-07 18:06</time></a></p>
-        </div>
-    </header><div class="e-content entry-content">
-    <div>
 <p>This is a sample markdown file to help you write Markdown quickly :)</p>
 <p>If you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Palette with <code>CMD+⇧+P</code> then choose <code>Markdown Preview in browser</code> to see the result in your browser.</p>
 <h3>Text basics</h3>
@@ -162,10 +103,42 @@ article: http://ogp.me/ns/article#
 <li>bullet list 4</li>
 <li>bullet list 5</li>
 </ul>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="posts/1st-post/" class="u-url">1st Post</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn">
+                Richard Senar
+            </span></p>
+            <p class="dateline"><a href="posts/1st-post/" rel="bookmark"><time class="published dt-published" datetime="2016-01-07T18:06:18-08:00" title="2016-01-07 18:06">2016-01-07 18:06</time></a></p>
+        </div>
+    </header><div class="e-content entry-content">
+    <div>
 <h3>Links</h3>
 <p>This is an <a href="http://lmgtfy.com/">example inline link</a> and <a href="http://lmgtfy.com/" title="Hello, world">another one with a title</a>.</p>
 <p>Links can also be reference based : [reference 1][ref1] or [reference 2 with title][ref2].</p>
 <p>References are usually placed at the bottom of the document</p>
+<h3>Images</h3>
+<p>A sample image :</p>
+<p><img alt="revolunet logo" src="http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg" title="revolunet logo"></p>
+<p>As links, images can also use references instead of inline links :</p>
+<p>![revolunet logo][revolunet-logo]</p>
+<h3>Code</h3>
+<p>It's quite easy to show code in markdown files.</p>
+<p>Backticks can be used to <code>highlight</code> some words.</p>
+<p>Also, any indented block is considered a code block.  If <code>enable_highlight</code> is <code>true</code>, syntax highlighting will be included (for the builtin parser - the github parser does this automatically).</p>
+<pre class="code literal-block"><span class="nt">&lt;script&gt;</span>
+    document.location = 'http://lmgtfy.com/?q=markdown+cheat+sheet';
+<span class="nt">&lt;/script&gt;</span>
+</pre>
+
+
+<h3>Math</h3>
+<p>When <code>enable_mathjax</code> is <code>true</code>, inline math can be included \(\frac{\pi}{2}\) $\pi$</p>
+<p>Alternatively, math can be written on its own line:</p>
+<p>$$F(\omega) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} f(t) \, e^{ - i \omega t}dt$$</p>
+<p>\[\int_0^1 f(t) \mathrm{d}t\]</p>
+<p>\[\sum_j \gamma_j^2/d_j\]</p>
 </div>
     </div>
     </article>

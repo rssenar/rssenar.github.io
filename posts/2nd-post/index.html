@@ -17,10 +17,8 @@ article: http://ogp.me/ns/article#
 <meta property="og:site_name" content="RichardSenar.com">
 <meta property="og:title" content="2nd Post">
 <meta property="og:url" content="http://rssenar.github.io/posts/2nd-post/">
-<meta property="og:description" content="GitHub Flavored Markdown
-If you use the Github parser, you can use some of [Github Flavored Markdown][gfm] syntax :
-
-User/Project@SHA: revolunet/sublimetext-markdown-preview@7da61badeda468b5019869d110">
+<meta property="og:description" content="This is a sample markdown file to help you write Markdown quickly :)
+If you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Pale">
 <meta property="og:type" content="article">
 <meta property="article:published_time" content="2016-01-07T18:07:58-08:00">
 </head>
@@ -78,54 +76,48 @@ User/Project@SHA: revolunet/sublimetext-markdown-preview@7da61badeda468b5019869d
         
     </header><div class="e-content entry-content" itemprop="articleBody text">
     <div>
-<h3>GitHub Flavored Markdown</h3>
-<p>If you use the Github parser, you can use some of [Github Flavored Markdown][gfm] syntax :</p>
+<p>This is a sample markdown file to help you write Markdown quickly :)</p>
+<p>If you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Palette with <code>CMD+⇧+P</code> then choose <code>Markdown Preview in browser</code> to see the result in your browser.</p>
+<h3>Text basics</h3>
+<p>this is <em>italic</em> and this is <strong>bold</strong> .  another <em>italic</em> and another <strong>bold</strong></p>
+<p>this is <code>important</code> text. and percentage signs : % and <code>%</code></p>
+<p>This is a paragraph with a footnote (builtin parser only). [^note-id]</p>
+<p>Insert <code>[ TOC ]</code> without spaces to generate a table of contents (builtin parsers only).</p>
+<h3>Indentation</h3>
+<blockquote>
+<p>Here is some indented text</p>
+<blockquote>
+<p>even more indented</p>
+</blockquote>
+</blockquote>
+<h3>Titles</h3>
+<h2>Big title (h1)</h2>
+<h3>Middle title (h2)</h3>
+<h4>Smaller title (h3)</h4>
+<h5>and so on (hX)</h5>
+<h6>and so on (hX)</h6>
+<h6>and so on (hX)</h6>
+<h3>Example lists (1)</h3>
 <ul>
-<li>User/Project@SHA: revolunet/sublimetext-markdown-preview@7da61badeda468b5019869d11000307e07e07401</li>
-<li>User/Project#Issue: revolunet/sublimetext-markdown-preview#1</li>
-<li>User : @revolunet</li>
-</ul>
-<p>Some Python code :</p>
-<pre class="code literal-block"><span class="kn">import</span> <span class="nn">random</span>
-
-<span class="k">class</span> <span class="nc">CardGame</span><span class="p">(</span><span class="nb">object</span><span class="p">):</span>
-    <span class="sd">""" a sample python class """</span>
-    <span class="n">NB_CARDS</span> <span class="o">=</span> <span class="mi">32</span>
-    <span class="k">def</span> <span class="nf">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">cards</span><span class="o">=</span><span class="mi">5</span><span class="p">):</span>
-        <span class="bp">self</span><span class="o">.</span><span class="n">cards</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">sample</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">NB_CARDS</span><span class="p">),</span> <span class="mi">5</span><span class="p">)</span>
-        <span class="k">print</span> <span class="s">'ready to play'</span>
-</pre>
-
-
-<p>Some Javascript code :</p>
-<pre class="code literal-block"><span class="kd">var</span> <span class="nx">config</span> <span class="o">=</span> <span class="p">{</span>
-    <span class="nx">duration</span><span class="o">:</span> <span class="mi">5</span><span class="p">,</span>
-    <span class="nx">comment</span><span class="o">:</span> <span class="s1">'WTF'</span>
-<span class="p">}</span>
-<span class="c1">// callbacks beauty un action</span>
-<span class="nx">async_call</span><span class="p">(</span><span class="s1">'/path/to/api'</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">json</span><span class="p">)</span> <span class="p">{</span>
-    <span class="nx">another_call</span><span class="p">(</span><span class="nx">json</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">result2</span><span class="p">)</span> <span class="p">{</span>
-        <span class="nx">another_another_call</span><span class="p">(</span><span class="nx">result2</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">result3</span><span class="p">)</span> <span class="p">{</span>
-            <span class="nx">another_another_another_call</span><span class="p">(</span><span class="nx">result3</span><span class="p">,</span> <span class="kd">function</span><span class="p">(</span><span class="nx">result4</span><span class="p">)</span> <span class="p">{</span>
-                <span class="nx">alert</span><span class="p">(</span><span class="s1">'And if all went well, i got my result :)'</span><span class="p">);</span>
-            <span class="p">});</span>
-        <span class="p">});</span>
-    <span class="p">});</span>
-<span class="p">})</span>
-</pre>
-
-
-<p>The Github Markdown also brings some [nice Emoji support][emoji] : :+1: :heart: :beer:</p>
-<h3>Parsers and Extensions</h3>
-<p>Markdown Preview comes with <strong>Python-Markdown</strong> preloaded.</p>
-<div class="footnote">
-<hr>
-<ol>
-<li id="fn:note-id">
-<p>This is the text of the note.  <a class="footnote-backref" href="#fnref:note-id" rev="footnote" title="Jump back to footnote 1 in the text">↩</a></p>
+<li>bullets can be <code>-</code>, <code>+</code>, or <code>*</code>
 </li>
-</ol>
-</div>
+<li>bullet list 1</li>
+<li>
+<p>bullet list 2</p>
+<ul>
+<li>sub item 1</li>
+<li>
+<p>sub item 2</p>
+<p>with indented text inside</p>
+</li>
+</ul>
+</li>
+<li>
+<p>bullet list 3</p>
+</li>
+<li>bullet list 4</li>
+<li>bullet list 5</li>
+</ul>
 </div>
     </div>
     <aside class="postpromonav"><nav><ul class="pager hidden-print">

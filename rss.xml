@@ -1,52 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Richard Senar Blog</title><link>http://rssenar.github.io/</link><description>A Personal Site on Technology &amp; Life</description><atom:link type="application/rss+xml" rel="self" href="http://rssenar.github.io/rss.xml"></atom:link><language>en</language><lastBuildDate>Fri, 08 Jan 2016 13:38:11 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>2nd Post</title><link>http://rssenar.github.io/posts/2nd-post/</link><dc:creator>Richard Senar</dc:creator><description>&lt;div&gt;&lt;h3&gt;GitHub Flavored Markdown&lt;/h3&gt;
-&lt;p&gt;If you use the Github parser, you can use some of [Github Flavored Markdown][gfm] syntax :&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;User/Project@SHA: revolunet/sublimetext-markdown-preview@7da61badeda468b5019869d11000307e07e07401&lt;/li&gt;
-&lt;li&gt;User/Project#Issue: revolunet/sublimetext-markdown-preview#1&lt;/li&gt;
-&lt;li&gt;User : @revolunet&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Some Python code :&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span class="kn"&gt;import&lt;/span&gt; &lt;span class="nn"&gt;random&lt;/span&gt;
-
-&lt;span class="k"&gt;class&lt;/span&gt; &lt;span class="nc"&gt;CardGame&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;object&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-    &lt;span class="sd"&gt;""" a sample python class """&lt;/span&gt;
-    &lt;span class="n"&gt;NB_CARDS&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="mi"&gt;32&lt;/span&gt;
-    &lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;__init__&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="n"&gt;cards&lt;/span&gt;&lt;span class="o"&gt;=&lt;/span&gt;&lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
-        &lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;cards&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;random&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;sample&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;range&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="bp"&gt;self&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;NB_CARDS&lt;/span&gt;&lt;span class="p"&gt;),&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
-        &lt;span class="k"&gt;print&lt;/span&gt; &lt;span class="s"&gt;'ready to play'&lt;/span&gt;
-&lt;/pre&gt;
-
-
-&lt;p&gt;Some Javascript code :&lt;/p&gt;
-&lt;pre class="code literal-block"&gt;&lt;span class="kd"&gt;var&lt;/span&gt; &lt;span class="nx"&gt;config&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nx"&gt;duration&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;5&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt;
-    &lt;span class="nx"&gt;comment&lt;/span&gt;&lt;span class="o"&gt;:&lt;/span&gt; &lt;span class="s1"&gt;'WTF'&lt;/span&gt;
-&lt;span class="p"&gt;}&lt;/span&gt;
-&lt;span class="c1"&gt;// callbacks beauty un action&lt;/span&gt;
-&lt;span class="nx"&gt;async_call&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'/path/to/api'&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;json&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-    &lt;span class="nx"&gt;another_call&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;json&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;result2&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-        &lt;span class="nx"&gt;another_another_call&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;result2&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;result3&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-            &lt;span class="nx"&gt;another_another_another_call&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;result3&lt;/span&gt;&lt;span class="p"&gt;,&lt;/span&gt; &lt;span class="kd"&gt;function&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nx"&gt;result4&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
-                &lt;span class="nx"&gt;alert&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="s1"&gt;'And if all went well, i got my result :)'&lt;/span&gt;&lt;span class="p"&gt;);&lt;/span&gt;
-            &lt;span class="p"&gt;});&lt;/span&gt;
-        &lt;span class="p"&gt;});&lt;/span&gt;
-    &lt;span class="p"&gt;});&lt;/span&gt;
-&lt;span class="p"&gt;})&lt;/span&gt;
-&lt;/pre&gt;
-
-
-&lt;p&gt;The Github Markdown also brings some [nice Emoji support][emoji] : :+1: :heart: :beer:&lt;/p&gt;
-&lt;h3&gt;Parsers and Extensions&lt;/h3&gt;
-&lt;p&gt;Markdown Preview comes with &lt;strong&gt;Python-Markdown&lt;/strong&gt; preloaded.&lt;/p&gt;
-&lt;div class="footnote"&gt;
-&lt;hr&gt;
-&lt;ol&gt;
-&lt;li id="fn:note-id"&gt;
-&lt;p&gt;This is the text of the note.  &lt;a class="footnote-backref" href="http://rssenar.github.io/posts/2nd-post/#fnref:note-id" rev="footnote" title="Jump back to footnote 1 in the text"&gt;↩&lt;/a&gt;&lt;/p&gt;
-&lt;/li&gt;
-&lt;/ol&gt;
-&lt;/div&gt;&lt;/div&gt;</description><guid>http://rssenar.github.io/posts/2nd-post/</guid><pubDate>Fri, 08 Jan 2016 02:07:58 GMT</pubDate></item><item><title>1st Post</title><link>http://rssenar.github.io/posts/1st-post/</link><dc:creator>Richard Senar</dc:creator><description>&lt;div&gt;&lt;p&gt;This is a sample markdown file to help you write Markdown quickly :)&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RichardSenar.com</title><link>http://rssenar.github.io/</link><description>A Personal Site on Technology &amp; Life</description><atom:link href="http://rssenar.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sun, 10 Jan 2016 19:15:16 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>2nd Post</title><link>http://rssenar.github.io/posts/2nd-post/</link><dc:creator>Richard Senar</dc:creator><description>&lt;div&gt;&lt;p&gt;This is a sample markdown file to help you write Markdown quickly :)&lt;/p&gt;
 &lt;p&gt;If you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Palette with &lt;code&gt;CMD+⇧+P&lt;/code&gt; then choose &lt;code&gt;Markdown Preview in browser&lt;/code&gt; to see the result in your browser.&lt;/p&gt;
 &lt;h3&gt;Text basics&lt;/h3&gt;
 &lt;p&gt;this is &lt;em&gt;italic&lt;/em&gt; and this is &lt;strong&gt;bold&lt;/strong&gt; .  another &lt;em&gt;italic&lt;/em&gt; and another &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
@@ -86,8 +39,28 @@
 &lt;/li&gt;
 &lt;li&gt;bullet list 4&lt;/li&gt;
 &lt;li&gt;bullet list 5&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h3&gt;Links&lt;/h3&gt;
+&lt;/ul&gt;&lt;/div&gt;</description><guid>http://rssenar.github.io/posts/2nd-post/</guid><pubDate>Fri, 08 Jan 2016 02:07:58 GMT</pubDate></item><item><title>1st Post</title><link>http://rssenar.github.io/posts/1st-post/</link><dc:creator>Richard Senar</dc:creator><description>&lt;div&gt;&lt;h3&gt;Links&lt;/h3&gt;
 &lt;p&gt;This is an &lt;a href="http://lmgtfy.com/"&gt;example inline link&lt;/a&gt; and &lt;a href="http://lmgtfy.com/" title="Hello, world"&gt;another one with a title&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Links can also be reference based : [reference 1][ref1] or [reference 2 with title][ref2].&lt;/p&gt;
-&lt;p&gt;References are usually placed at the bottom of the document&lt;/p&gt;&lt;/div&gt;</description><guid>http://rssenar.github.io/posts/1st-post/</guid><pubDate>Fri, 08 Jan 2016 02:06:18 GMT</pubDate></item></channel></rss>
+&lt;p&gt;References are usually placed at the bottom of the document&lt;/p&gt;
+&lt;h3&gt;Images&lt;/h3&gt;
+&lt;p&gt;A sample image :&lt;/p&gt;
+&lt;p&gt;&lt;img alt="revolunet logo" src="http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg" title="revolunet logo"&gt;&lt;/p&gt;
+&lt;p&gt;As links, images can also use references instead of inline links :&lt;/p&gt;
+&lt;p&gt;![revolunet logo][revolunet-logo]&lt;/p&gt;
+&lt;h3&gt;Code&lt;/h3&gt;
+&lt;p&gt;It's quite easy to show code in markdown files.&lt;/p&gt;
+&lt;p&gt;Backticks can be used to &lt;code&gt;highlight&lt;/code&gt; some words.&lt;/p&gt;
+&lt;p&gt;Also, any indented block is considered a code block.  If &lt;code&gt;enable_highlight&lt;/code&gt; is &lt;code&gt;true&lt;/code&gt;, syntax highlighting will be included (for the builtin parser - the github parser does this automatically).&lt;/p&gt;
+&lt;pre class="code literal-block"&gt;&lt;span class="nt"&gt;&amp;lt;script&amp;gt;&lt;/span&gt;
+    document.location = 'http://lmgtfy.com/?q=markdown+cheat+sheet';
+&lt;span class="nt"&gt;&amp;lt;/script&amp;gt;&lt;/span&gt;
+&lt;/pre&gt;
+
+
+&lt;h3&gt;Math&lt;/h3&gt;
+&lt;p&gt;When &lt;code&gt;enable_mathjax&lt;/code&gt; is &lt;code&gt;true&lt;/code&gt;, inline math can be included \(\frac{\pi}{2}\) $\pi$&lt;/p&gt;
+&lt;p&gt;Alternatively, math can be written on its own line:&lt;/p&gt;
+&lt;p&gt;$$F(\omega) = \frac{1}{\sqrt{2\pi}} \int_{-\infty}^{\infty} f(t) \, e^{ - i \omega t}dt$$&lt;/p&gt;
+&lt;p&gt;\[\int_0^1 f(t) \mathrm{d}t\]&lt;/p&gt;
+&lt;p&gt;\[\sum_j \gamma_j^2/d_j\]&lt;/p&gt;&lt;/div&gt;</description><guid>http://rssenar.github.io/posts/1st-post/</guid><pubDate>Fri, 08 Jan 2016 02:06:18 GMT</pubDate></item></channel></rss>
