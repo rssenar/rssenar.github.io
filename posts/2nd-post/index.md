@@ -11,6 +11,8 @@
 
 This is a sample markdown file to help you write Markdown quickly :)
 
+![Then and Now](https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/Then%20and%20Now.jpg)
+
 If you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Palette with `CMD+⇧+P` then choose `Markdown Preview in browser` to see the result in your browser.
 
 ## Text basics
@@ -34,6 +36,9 @@ Insert `[ TOC ]` without spaces to generate a table of contents (builtin parsers
 ##### and so on (hX)
 ###### and so on (hX)
 
+![X-Wing1](https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/85-1635-lg.jpg)
+![X-Wing2](https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/T70XWing-Fathead.png)
+
 ## Example lists (1)
 
  - bullets can be `-`, `+`, or `*`
@@ -47,3 +52,9 @@ Insert `[ TOC ]` without spaces to generate a table of contents (builtin parsers
  - bullet list 3
  + bullet list 4
  * bullet list 5
+
+
+## Example lists (1)
+
+![Han Solo](https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/han-character-poster.jpg)
+![Ray](https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/rey-character-poster.jpg)

@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RichardSenar.com</title><link>http://rssenar.github.io/</link><description>A Personal Site on Technology &amp; Life</description><atom:link href="http://rssenar.github.io/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><lastBuildDate>Sun, 10 Jan 2016 19:15:16 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>2nd Post</title><link>http://rssenar.github.io/posts/2nd-post/</link><dc:creator>Richard Senar</dc:creator><description>&lt;div&gt;&lt;p&gt;This is a sample markdown file to help you write Markdown quickly :)&lt;/p&gt;
+<?xml-stylesheet type="text/xsl" href="assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>RichardSenar.com</title><link>http://rssenar.github.io/</link><description>A Personal Site on Technology &amp; Life</description><atom:link href="http://rssenar.github.io/rss.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><lastBuildDate>Sun, 10 Jan 2016 19:34:56 GMT</lastBuildDate><generator>https://getnikola.com/</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>2nd Post</title><link>http://rssenar.github.io/posts/2nd-post/</link><dc:creator>Richard Senar</dc:creator><description>&lt;div&gt;&lt;p&gt;This is a sample markdown file to help you write Markdown quickly :)&lt;/p&gt;
+&lt;p&gt;&lt;img alt="Then and Now" src="https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/Then%20and%20Now.jpg"&gt;&lt;/p&gt;
 &lt;p&gt;If you use the fabulous [Sublime Text 2/3 editor][ST] along with the [Markdown Preview plugin][MarkdownPreview], open your ST2 Palette with &lt;code&gt;CMD+⇧+P&lt;/code&gt; then choose &lt;code&gt;Markdown Preview in browser&lt;/code&gt; to see the result in your browser.&lt;/p&gt;
 &lt;h3&gt;Text basics&lt;/h3&gt;
 &lt;p&gt;this is &lt;em&gt;italic&lt;/em&gt; and this is &lt;strong&gt;bold&lt;/strong&gt; .  another &lt;em&gt;italic&lt;/em&gt; and another &lt;strong&gt;bold&lt;/strong&gt;&lt;/p&gt;
@@ -20,6 +21,8 @@
 &lt;h5&gt;and so on (hX)&lt;/h5&gt;
 &lt;h6&gt;and so on (hX)&lt;/h6&gt;
 &lt;h6&gt;and so on (hX)&lt;/h6&gt;
+&lt;p&gt;&lt;img alt="X-Wing1" src="https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/85-1635-lg.jpg"&gt;
+&lt;img alt="X-Wing2" src="https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/T70XWing-Fathead.png"&gt;&lt;/p&gt;
 &lt;h3&gt;Example lists (1)&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;bullets can be &lt;code&gt;-&lt;/code&gt;, &lt;code&gt;+&lt;/code&gt;, or &lt;code&gt;*&lt;/code&gt;&lt;/li&gt;
@@ -39,15 +42,19 @@
 &lt;/li&gt;
 &lt;li&gt;bullet list 4&lt;/li&gt;
 &lt;li&gt;bullet list 5&lt;/li&gt;
-&lt;/ul&gt;&lt;/div&gt;</description><guid>http://rssenar.github.io/posts/2nd-post/</guid><pubDate>Fri, 08 Jan 2016 02:07:58 GMT</pubDate></item><item><title>1st Post</title><link>http://rssenar.github.io/posts/1st-post/</link><dc:creator>Richard Senar</dc:creator><description>&lt;div&gt;&lt;h3&gt;Links&lt;/h3&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Example lists (1)&lt;/h3&gt;
+&lt;p&gt;&lt;img alt="Han Solo" src="https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/han-character-poster.jpg"&gt;
+&lt;img alt="Ray" src="https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/rey-character-poster.jpg"&gt;&lt;/p&gt;&lt;/div&gt;</description><guid>http://rssenar.github.io/posts/2nd-post/</guid><pubDate>Fri, 08 Jan 2016 02:07:58 GMT</pubDate></item><item><title>1st Post</title><link>http://rssenar.github.io/posts/1st-post/</link><dc:creator>Richard Senar</dc:creator><description>&lt;div&gt;&lt;h3&gt;Links&lt;/h3&gt;
 &lt;p&gt;This is an &lt;a href="http://lmgtfy.com/"&gt;example inline link&lt;/a&gt; and &lt;a href="http://lmgtfy.com/" title="Hello, world"&gt;another one with a title&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Links can also be reference based : [reference 1][ref1] or [reference 2 with title][ref2].&lt;/p&gt;
 &lt;p&gt;References are usually placed at the bottom of the document&lt;/p&gt;
 &lt;h3&gt;Images&lt;/h3&gt;
 &lt;p&gt;A sample image :&lt;/p&gt;
-&lt;p&gt;&lt;img alt="revolunet logo" src="http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg" title="revolunet logo"&gt;&lt;/p&gt;
-&lt;p&gt;As links, images can also use references instead of inline links :&lt;/p&gt;
-&lt;p&gt;![revolunet logo][revolunet-logo]&lt;/p&gt;
+&lt;p&gt;&lt;img alt="B-Wing" src="https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/b_wing_redesign_by_stephen_daymond.png"&gt;
+&lt;img alt="B-Wing2" src="https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/Bwing_negvv.jpg"&gt;
+&lt;img alt="B-Wing3" src="https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/rock_splitter_9_by_shimmering_sword-d8akb3t.jpg"&gt;
+&lt;img alt="B-Wing4" src="https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/Star-Wars-Rebels-Season-Two-23.jpg"&gt;&lt;/p&gt;
 &lt;h3&gt;Code&lt;/h3&gt;
 &lt;p&gt;It's quite easy to show code in markdown files.&lt;/p&gt;
 &lt;p&gt;Backticks can be used to &lt;code&gt;highlight&lt;/code&gt; some words.&lt;/p&gt;

@@ -22,12 +22,10 @@ References are usually placed at the bottom of the document
 
 A sample image :
 
-![revolunet logo](http://www.revolunet.com/static/parisjs8/img/logo-revolunet-carre.jpg "revolunet logo")
-
-As links, images can also use references instead of inline links :
-
-![revolunet logo][revolunet-logo]
-
+![B-Wing](https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/b_wing_redesign_by_stephen_daymond.png)
+![B-Wing2](https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/Bwing_negvv.jpg)
+![B-Wing3](https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/rock_splitter_9_by_shimmering_sword-d8akb3t.jpg)
+![B-Wing4](https://dl.dropboxusercontent.com/u/4423832/Websites%20Images/Star-Wars-Rebels-Season-Two-23.jpg)
 
 ## Code
 
