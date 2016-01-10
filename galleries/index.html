@@ -1,8 +1,11 @@
 <!DOCTYPE html>
-<html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
+<html prefix="
+og: http://ogp.me/ns#
+article: http://ogp.me/ns/article#
+" lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>galleries | RSS Blog</title>
 <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
 <link rel="alternate" type="application/rss+xml" title="RSS" href="../rss.xml">
@@ -17,51 +20,65 @@
     }
     </style>
 </head>
-<body class="home blog">
-    <div id="wrap" style="width:850px">
-        <div id="container" style="width:560px">
+<body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
+
+<!-- Menubar -->
+
+<div class="blog-masthead">
+    <div class="container">
+<!-- This keeps the margins nice -->
+        <nav class="blog-nav" role="navigation"><a href="../index.html" class="blog-nav-item">Home</a>
+            <a href="../archive.html" class="blog-nav-item">Archives</a>
+            <a href="../categories/index.html" class="blog-nav-item">Tags</a>
+            <a href="../rss.xml" class="blog-nav-item">RSS feed</a>
+
             
+
+                
             
-    
-<nav class="breadcrumbs"><ul class="breadcrumb">
+        </nav>
+</div>
+<!-- /.container -->
+</div>
+<!-- End of Menubar -->
+
+<div class="container" id="content" role="main">
+    <div class="body-content">
+        <div class="blog-header">
+            <h1 class="blog-title">
+                <a href="http://rssenar.github.io/">
+
+                    <span id="blog-title">RSS Blog</span>
+                </a>
+            </h1>
+            <p class="lead blog-description">A Personal Site on Technology &amp; Life</p>
+            
+        </div>
+        <!--Body content-->
+        <div class="row">
+            <div class="col-sm-8 blog-main">
+    <nav class="breadcrumbs"><ul class="breadcrumb">
 <li>galleries</li>
 </ul></nav><h1>galleries</h1>
 
 <div id="gallery_container"></div>
-
-        </div>
-        <div id="sidebar">
-            <!--Sidebar content-->
-            <h1 id="blog-title">
-                <a href="http://rssenar.github.io/" title="RSS Blog">RSS Blog</a>
-            </h1>
-            
-            
-            <ul class="unstyled">
-<li>
-            
-                <li>
-<a href="../archive.html">Archive</a>
-                </li>
-<li>
-<a href="../categories/">Tags</a>
-                </li>
-<li>
-<a href="../rss.xml">RSS feed</a>
-
-            </li>
-<li>
-            
-            
-            </ul>
-</div>
-        <div id="footer">
-            Contents © 2016         <a href="mailto:rssenar@gmail.com">Richard Senar</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
-            
+            </div>
+            <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+                
+            </div>
+        <!--End of body content-->
         </div>
     </div>
+</div>
+
+<footer class="blog-footer" id="footer">
+    Contents © 2016         <a href="mailto:rssenar@gmail.com">Richard Senar</a> - Powered by         <a href="https://getnikola.com" rel="nofollow">Nikola</a>         
     
-            <script src="../assets/js/all-nocdn.js"></script><script type="text/javascript">jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><script src="../assets/js/flowr.plugin.js"></script><script>
+</footer><script src="../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
+    moment.locale("en");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script><!-- end fancy dates --><script src="../assets/js/flowr.plugin.js"></script><script>
 jsonContent = [];
 $("#gallery_container").flowr({
         data : jsonContent,
@@ -97,6 +114,7 @@ $("#gallery_container").flowr({
         }
     });
 $("a.image-reference").colorbox({rel:"gal", maxWidth:"100%",maxHeight:"100%",scalePhotos:true});
+$('a.image-reference[href="'+window.location.hash.substring(1,1000)+'"]').click();
 </script>
 </body>
 </html>
