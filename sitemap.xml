@@ -7,46 +7,34 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://rssenar.github.io/</loc>
-  <lastmod>2016-01-10T19:24:00Z</lastmod>
+  <lastmod>2016-01-12T19:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://rssenar.github.io/2016/</loc>
-  <lastmod>2016-01-08T01:04:00Z</lastmod>
+  <lastmod>2016-01-12T19:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://rssenar.github.io/archive.html</loc>
-  <lastmod>2016-01-12T09:37:00Z</lastmod>
+  <lastmod>2016-01-12T19:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://rssenar.github.io/categories/</loc>
-  <lastmod>2016-01-08T01:04:00Z</lastmod>
+  <lastmod>2016-01-12T19:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://rssenar.github.io/galleries/</loc>
-  <lastmod>2016-01-08T01:04:00Z</lastmod>
+  <lastmod>2016-01-12T19:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://rssenar.github.io/listings/</loc>
-  <lastmod>2016-01-08T01:04:00Z</lastmod>
+  <lastmod>2016-01-12T19:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://rssenar.github.io/posts/1st-post/</loc>
-  <lastmod>2016-01-08T02:08:00Z</lastmod>
+  <lastmod>2016-01-12T19:08:00Z</lastmod>
  </url>
  <url>
   <loc>http://rssenar.github.io/posts/2nd-post/</loc>
-  <lastmod>2016-01-08T02:08:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rssenar.github.io/posts/3rd-post/</loc>
-  <lastmod>2016-01-08T01:58:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rssenar.github.io/posts/all-in-a-days-work/</loc>
-  <lastmod>2016-01-08T01:58:00Z</lastmod>
- </url>
- <url>
-  <loc>http://rssenar.github.io/posts/happy-new-year/</loc>
-  <lastmod>2016-01-08T01:04:00Z</lastmod>
+  <lastmod>2016-01-12T19:08:00Z</lastmod>
  </url>
 </urlset>
